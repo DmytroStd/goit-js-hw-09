@@ -49,10 +49,6 @@ function convertMs(ms) {
   return { days, hours, minutes, seconds };
 }
 
-// function updatePicker({ days, hours, minutes, seconds }) {
-//     picker.textContent = `${days}:${hours}:${minutes}:${seconds}`
-// }
-
 /// добавляет к числам с одним значением второе со значением 0 ///////
 function addLeadingZero(value) {
     return String(value).padStart(2, '0');
